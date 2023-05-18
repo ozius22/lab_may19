@@ -1,5 +1,4 @@
 <template>
-
     <section>
         <h2>Products</h2>
         <p>Text goes here.</p>
