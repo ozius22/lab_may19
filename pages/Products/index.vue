@@ -1,10 +1,11 @@
 <template>
-    <div>
+
+    <section>
         <h2>Products</h2>
         <p>Text goes here.</p>
         <p>And, also here.</p>
         <p>As well as here.</p>
-    </div>
+    </section>
 </template>
 
 <script setup>
