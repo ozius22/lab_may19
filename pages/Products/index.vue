@@ -1,8 +1,11 @@
 <template>
     <div>
-        <div class="grid grid-cols-4 gap-5">
+        <div class="grid grid-cols-3 gap-8">
             <div v-for="p in products">
-            <NuxtLink :to="`/Products/${p.id}`">{{ p.title }}</NuxtLink>
+            <NuxtLink :to="`/Products/${p.id}`">
+            <img :src="p.image" alt="Product Image">
+            {{ p.title }}
+            </NuxtLink>
             </div>
         </div>
     </div>

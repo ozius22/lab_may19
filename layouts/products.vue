@@ -1,5 +1,5 @@
 <template>
-  <header class="shadow-sm bg-white">
+  <header class="shadow-sm bg-white text-[35px]">
     <nav class="container mx-auto p-4">
         <NuxtLink to="/Products" class="font-bold">Just Another Store Merch</NuxtLink>
     </nav>
@@ -9,8 +9,8 @@
     <slot />
   </div>
 
-  <footer class="container mx-auto p-4 flex justify-between border-t-2">
-    <ul class="flex gap-4">
+  <footer class="container mx-auto p-4 flex justify-between border-t-2 font-bold">
+    <ul class="flex gap-2">
       <li><NuxtLink to="/">Home</NuxtLink></li>
       <li><NuxtLink to="/Products/">Products</NuxtLink></li>
       </ul>
@@ -19,6 +19,6 @@
 
 <style>
   .router-link-exact-active {
-      color: red;
+      color: green;
   }
 </style>
