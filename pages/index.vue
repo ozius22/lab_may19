@@ -1,6 +1,6 @@
 <template>
     <section>
-        <h2>Home</h2>
+        <h2>WELCOME TO FAKESTOREAPI</h2>
         <p>Text goes here.</p>
         <p>And, also here.</p>
         <p>As well as here.</p>
