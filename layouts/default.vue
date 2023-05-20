@@ -21,6 +21,6 @@
 
 <style>
     .router-link-exact-active {
-        color: red;
+        color: limegreen;
     }
 </style>

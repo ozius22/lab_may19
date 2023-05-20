@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 body {
-  @apply bg-blue-50;
+  @apply bg-white;
 }
 
 footer {
-  @apply bg-blue-50;
+  @apply bg-white;
 }
 
 @layer components {
   .btn {
-    @apply bg-[limegreen] text-white px-3 py-2 rounded-md text-sm;
+    @apply bg-[green] text-white px-3 py-2 rounded-md text-sm;
   }
 }

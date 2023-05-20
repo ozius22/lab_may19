@@ -6,7 +6,6 @@
         <p>{{ product.description }}</p>
         <p>{{ product.rating }}</p>
         <p>{{ product.reviews }}</p>
-        
     </div>
 </template>
 
